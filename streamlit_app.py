@@ -396,7 +396,7 @@ with st.sidebar:
         participante = st.text_input(
             "Nome do aluno ou grupo",
             key="participante_input",
-            placeholder="Ex.: Maria ou Grupo A",
+            placeholder="Ex.: Rubem Alves ou Grupo A",
         )
         modalidade = st.radio(
             "Modo de jogo",
