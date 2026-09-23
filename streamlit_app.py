@@ -69,10 +69,10 @@ CASES: list[dict[str, Any]] = [
             "ameaça de uma rede maior."
         ),
         "estrategias": {
-            "FO": ["cafe", "premiad", "assinatur", "delivery", "especial"],
-            "FA": ["client", "fiel", "qualidad", "diferenci", "rede"],
+            "FO": ["café", "premiado", "assinatura", "delivery", "especial"],
+            "FA": ["cliente", "fiel", "qualidade", "diferencial", "rede"],
             "WO": ["delivery", "digital", "instagram", "empresa", "parceria"],
-            "WA": ["rotativ", "trein", "custo", "fornecedor", "margem"],
+            "WA": ["rotatividade", "treinamento", "custo", "fornecedor", "margem"],
         },
     },
     {
@@ -526,7 +526,7 @@ elif st.session_state.fase == 2:
     fase1 = st.session_state.resultado_fase1
     st.subheader("FASE 2 · Cruzamento estratégico — até 40 pontos")
     st.write(
-        "Crie uma estratégia para cada quadrante da matriz TOWS. "
+        "Crie uma estratégia para cada quadrante da matriz SWOT. "
         "Seja específico: cite fatores do case, público, canal ou ação."
     )
     st.success(f"Fase 1: **{fase1['acertos']}/8 acertos** · {fase1['pontos']}/80 pontos")
