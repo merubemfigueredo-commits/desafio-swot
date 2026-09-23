@@ -1,6 +1,6 @@
 """DESAFIO SWOT
 
-Jogo educacional em Streamlit para praticar análise SWOT/TOWS.
+Jogo educacional em Streamlit para praticar análise SWOT.
 
 Execute com:
     streamlit run game-swot.py
